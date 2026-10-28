@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Macaca fuscata', 'chimpanzee', 'human']
+
+roboflow:
+  workspace: kritsada-boonprakong-s-workspace
+  project: monkey-mbjdm-p6fjb
+  version: 4
+  license: CC BY 4.0
+  url: https://app.roboflow.com/kritsada-boonprakong-s-workspace/monkey-mbjdm-p6fjb/4
